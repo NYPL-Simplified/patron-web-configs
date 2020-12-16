@@ -6,3 +6,5 @@ libraries:
   app: "https://qa-circulation.openebooks.us/USOEI/authentication_document"
 media_support: 
   application/vnd.librarysimplified.axisnow+json: show
+openebooks:
+  default_library: app
