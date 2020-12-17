@@ -1,0 +1,20 @@
+--- 
+companion_app: simplye
+instance_name: "Patron Web Catalog - Community Demo"
+libraries: "https://libraryregistry.librarysimplified.org/libraries"
+media_support: 
+  application/atom+xml;type=entry;profile=opds-catalog: 
+    ? "text/html;profile=\"http://librarysimplified.org/terms/profiles/streaming-media\""
+    : show
+  application/audiobook+json: redirect
+  application/epub+zip: show
+  application/kepub+zip: show
+  application/pdf: show
+  application/vnd.adobe.adept+xml: 
+    application/epub+zip: redirect-and-show
+  application/vnd.overdrive.circulation.api+json;profile=audiobook: redirect
+  application/vnd.overdrive.circulation.api+json;profile=ebook: show
+  application/x-mobi8-ebook: show
+  application/x-mobipocket-ebook: show
+  ? "text/html;profile=\"http://librarysimplified.org/terms/profiles/streaming-media\""
+  : show
