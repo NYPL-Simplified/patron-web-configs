@@ -1,6 +1,6 @@
 --- 
 companion_app: simplye
-instance_name: "Patron Web Catalog - Community Demo"
+instance_name: "Patron Web Catalog - Community QA Demo"
 libraries: "https://libraryregistry.librarysimplified.org/libraries/qa"
 media_support: 
   application/atom+xml;type=entry;profile=opds-catalog: 
