@@ -3,8 +3,8 @@ companion_app: openebooks
 bugsnag_api_key: 29e89150d092b98836edf0745bfdc677
 show_medium: false
 libraries: 
-#   app: "https://qa-circulation.openebooks.us/USOEI/authentication_document"
-  app: "https://raw.githubusercontent.com/NYPL-Simplified/patron-web-configs/main/mock-opene-auth-doc.json"
+  app: "https://qa-circulation.openebooks.us/USOEI/authentication_document"
+#   app: "https://raw.githubusercontent.com/NYPL-Simplified/patron-web-configs/main/mock-opene-auth-doc.json"
 media_support: 
   application/vnd.librarysimplified.axisnow+json: show
 openebooks:
